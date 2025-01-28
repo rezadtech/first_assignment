@@ -1,0 +1,37 @@
+1.answer:
+git init first_assignment
+
+2.answer:
+git config --global user.name "rdtech"
+git config --global user.mail "dayhoolengineering@gmail.com"
+
+3,4,5,6.answer:
+touch main.md
+git status
+git add main.md
+touch class1.py
+git status
+nano main.txt
+git status
+git add main.md class1.py
+git status
+git add main.txt
+git commit -m "main.txt is extra"
+git status
+nano main.md
+git diff
+touch test.log
+git status
+touch .gitignore
+git status
+nano .gitignore
+git status
+git add .gitignore
+git commit -m "log added to gitignore"
+git status
+
+7.answer:
+git diff HEAD^
+git diff HEAD~3
+git diff index.html
+git diff --cached index.html(Differences Between Staging Area and Last Commit in index.html)
